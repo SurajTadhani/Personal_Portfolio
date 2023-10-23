@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Fira+Sans:wght@200&family=Lobster&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Fira+Sans:wght@200&family=Lobster&family=Poppins:wght@500&family=Roboto:wght@300&family=Source+Code+Pro:ital@1&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    margin-top: 60px;
+    
+}
+.main{
+    background-color: rgb(226, 226, 237);
+    color: white;
+    width: 65vw;
+    margin-left: 15px;
+    color: black;
+   
+    border-radius: 20px;
+   
+
+}
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 25px;
+    padding: 17px 0px;
+}
+.sidebar nav li a{
+  text-decoration: none;
+  color: black;
+}
+.sidebar{
+    background-color: rgb(227, 220, 220);
+    /* width: 300px; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    left: 0px;
+}
+.sidebar nav{
+    padding: 45px;
+ 
+ }
+
+
+ .blogcontainer h1{
+    text-align: center;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Serif 4', serif;
+}  
+
+
+
+
+.blogitem{
+  margin: 20px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Serif 4', serif;
+}
+.btn{
+   
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgb(70, 67, 67);
+    color: white;
+    margin: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+/* responsivness */
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.icon{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+   margin-top: 10px;
+   cursor: pointer;
+   margin-left: 10px;
+}
+.cross{
+ margin-left: 165px;
+ margin-top: 5px;
+ position: absolute;
+ height: 15px;
+ width: 15px;
+ cursor: pointer;
+ 
+
+}
